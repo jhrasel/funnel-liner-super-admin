@@ -2,6 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --main-color: #041E48;
+}
+
+.container :where(a, h1, h2, h3, h4, h5, h6, button, ul, li, p) {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: 0;
+  background: none;
+  list-style-type: none;
 }
