@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "flaticon_mycollection";
+    src: url("./flaticon_mycollection.ttf?e2355009c1f4f56d301791d18b28fc0f") format("truetype"),
+url("./flaticon_mycollection.woff?e2355009c1f4f56d301791d18b28fc0f") format("woff"),
+url("./flaticon_mycollection.woff2?e2355009c1f4f56d301791d18b28fc0f") format("woff2"),
+url("./flaticon_mycollection.eot?e2355009c1f4f56d301791d18b28fc0f#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?e2355009c1f4f56d301791d18b28fc0f#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-sent:before {
+    content: "\f101";
+}
+.flaticon-product:before {
+    content: "\f102";
+}
+.flaticon-express-delivery:before {
+    content: "\f103";
+}
+.flaticon-delivery-truck:before {
+    content: "\f104";
+}
+.flaticon-in-stock:before {
+    content: "\f105";
+}
+.flaticon-warehouse:before {
+    content: "\f106";
+}
+.flaticon-mail:before {
+    content: "\f107";
+}
+.flaticon-support-ticket:before {
+    content: "\f108";
+}
+.flaticon-people:before {
+    content: "\f109";
+}
+.flaticon-customer-care:before {
+    content: "\f10a";
+}
+.flaticon-website-design:before {
+    content: "\f10b";
+}
+.flaticon-page:before {
+    content: "\f10c";
+}
+.flaticon-home:before {
+    content: "\f10d";
+}
+.flaticon-coding:before {
+    content: "\f10e";
+}
+.flaticon-plugin:before {
+    content: "\f10f";
+}
+.flaticon-accounting:before {
+    content: "\f110";
+}
+.flaticon-subscribe:before {
+    content: "\f111";
+}
+.flaticon-subscription-model:before {
+    content: "\f112";
+}
+.flaticon-bill:before {
+    content: "\f113";
+}
+.flaticon-wallet:before {
+    content: "\f114";
+}
+.flaticon-wallet-1:before {
+    content: "\f115";
+}
+.flaticon-customer-support:before {
+    content: "\f116";
+}
+.flaticon-arrow-down-sign-to-navigate:before {
+    content: "\f117";
+}
+.flaticon-left-arrow:before {
+    content: "\f118";
+}
+.flaticon-right-arrow:before {
+    content: "\f119";
+}
+.flaticon-up-arrow:before {
+    content: "\f11a";
+}
+.flaticon-plus:before {
+    content: "\f11b";
+}
+.flaticon-minus:before {
+    content: "\f11c";
+}
+.flaticon-team:before {
+    content: "\f11d";
+}

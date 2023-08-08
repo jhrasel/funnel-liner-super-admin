@@ -1,0 +1,141 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.ttf?e2355009c1f4f56d301791d18b28fc0f") format("truetype"),
+url("./flaticon_mycollection.woff?e2355009c1f4f56d301791d18b28fc0f") format("woff"),
+url("./flaticon_mycollection.woff2?e2355009c1f4f56d301791d18b28fc0f") format("woff2"),
+url("./flaticon_mycollection.eot?e2355009c1f4f56d301791d18b28fc0f#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?e2355009c1f4f56d301791d18b28fc0f#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "sent": "\f101",
+    "product": "\f102",
+    "express-delivery": "\f103",
+    "delivery-truck": "\f104",
+    "in-stock": "\f105",
+    "warehouse": "\f106",
+    "mail": "\f107",
+    "support-ticket": "\f108",
+    "people": "\f109",
+    "customer-care": "\f10a",
+    "website-design": "\f10b",
+    "page": "\f10c",
+    "home": "\f10d",
+    "coding": "\f10e",
+    "plugin": "\f10f",
+    "accounting": "\f110",
+    "subscribe": "\f111",
+    "subscription-model": "\f112",
+    "bill": "\f113",
+    "wallet": "\f114",
+    "wallet-1": "\f115",
+    "customer-support": "\f116",
+    "arrow-down-sign-to-navigate": "\f117",
+    "left-arrow": "\f118",
+    "right-arrow": "\f119",
+    "up-arrow": "\f11a",
+    "plus": "\f11b",
+    "minus": "\f11c",
+    "team": "\f11d",
+);
+
+.flaticon-sent:before {
+    content: map-get($flaticon_mycollection-map, "sent");
+}
+.flaticon-product:before {
+    content: map-get($flaticon_mycollection-map, "product");
+}
+.flaticon-express-delivery:before {
+    content: map-get($flaticon_mycollection-map, "express-delivery");
+}
+.flaticon-delivery-truck:before {
+    content: map-get($flaticon_mycollection-map, "delivery-truck");
+}
+.flaticon-in-stock:before {
+    content: map-get($flaticon_mycollection-map, "in-stock");
+}
+.flaticon-warehouse:before {
+    content: map-get($flaticon_mycollection-map, "warehouse");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon_mycollection-map, "mail");
+}
+.flaticon-support-ticket:before {
+    content: map-get($flaticon_mycollection-map, "support-ticket");
+}
+.flaticon-people:before {
+    content: map-get($flaticon_mycollection-map, "people");
+}
+.flaticon-customer-care:before {
+    content: map-get($flaticon_mycollection-map, "customer-care");
+}
+.flaticon-website-design:before {
+    content: map-get($flaticon_mycollection-map, "website-design");
+}
+.flaticon-page:before {
+    content: map-get($flaticon_mycollection-map, "page");
+}
+.flaticon-home:before {
+    content: map-get($flaticon_mycollection-map, "home");
+}
+.flaticon-coding:before {
+    content: map-get($flaticon_mycollection-map, "coding");
+}
+.flaticon-plugin:before {
+    content: map-get($flaticon_mycollection-map, "plugin");
+}
+.flaticon-accounting:before {
+    content: map-get($flaticon_mycollection-map, "accounting");
+}
+.flaticon-subscribe:before {
+    content: map-get($flaticon_mycollection-map, "subscribe");
+}
+.flaticon-subscription-model:before {
+    content: map-get($flaticon_mycollection-map, "subscription-model");
+}
+.flaticon-bill:before {
+    content: map-get($flaticon_mycollection-map, "bill");
+}
+.flaticon-wallet:before {
+    content: map-get($flaticon_mycollection-map, "wallet");
+}
+.flaticon-wallet-1:before {
+    content: map-get($flaticon_mycollection-map, "wallet-1");
+}
+.flaticon-customer-support:before {
+    content: map-get($flaticon_mycollection-map, "customer-support");
+}
+.flaticon-arrow-down-sign-to-navigate:before {
+    content: map-get($flaticon_mycollection-map, "arrow-down-sign-to-navigate");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon_mycollection-map, "left-arrow");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon_mycollection-map, "right-arrow");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon_mycollection-map, "up-arrow");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon_mycollection-map, "plus");
+}
+.flaticon-minus:before {
+    content: map-get($flaticon_mycollection-map, "minus");
+}
+.flaticon-team:before {
+    content: map-get($flaticon_mycollection-map, "team");
+}
