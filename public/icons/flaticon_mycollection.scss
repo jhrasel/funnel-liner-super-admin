@@ -2,11 +2,11 @@ $flaticon_mycollection-font: "flaticon_mycollection";
 
 @font-face {
     font-family: $flaticon_mycollection-font;
-    src: url("./flaticon_mycollection.ttf?e2355009c1f4f56d301791d18b28fc0f") format("truetype"),
-url("./flaticon_mycollection.woff?e2355009c1f4f56d301791d18b28fc0f") format("woff"),
-url("./flaticon_mycollection.woff2?e2355009c1f4f56d301791d18b28fc0f") format("woff2"),
-url("./flaticon_mycollection.eot?e2355009c1f4f56d301791d18b28fc0f#iefix") format("embedded-opentype"),
-url("./flaticon_mycollection.svg?e2355009c1f4f56d301791d18b28fc0f#flaticon_mycollection") format("svg");
+    src: url("./flaticon_mycollection.ttf?5e44885d4dc8e8e60ebb491e51ebc93a") format("truetype"),
+url("./flaticon_mycollection.woff?5e44885d4dc8e8e60ebb491e51ebc93a") format("woff"),
+url("./flaticon_mycollection.woff2?5e44885d4dc8e8e60ebb491e51ebc93a") format("woff2"),
+url("./flaticon_mycollection.eot?5e44885d4dc8e8e60ebb491e51ebc93a#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?5e44885d4dc8e8e60ebb491e51ebc93a#flaticon_mycollection") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -50,6 +50,11 @@ $flaticon_mycollection-map: (
     "plus": "\f11b",
     "minus": "\f11c",
     "team": "\f11d",
+    "home-1": "\f11e",
+    "notification": "\f11f",
+    "logout": "\f120",
+    "search-interface-symbol": "\f121",
+    "close": "\f122",
 );
 
 .flaticon-sent:before {
@@ -138,4 +143,19 @@ $flaticon_mycollection-map: (
 }
 .flaticon-team:before {
     content: map-get($flaticon_mycollection-map, "team");
+}
+.flaticon-home-1:before {
+    content: map-get($flaticon_mycollection-map, "home-1");
+}
+.flaticon-notification:before {
+    content: map-get($flaticon_mycollection-map, "notification");
+}
+.flaticon-logout:before {
+    content: map-get($flaticon_mycollection-map, "logout");
+}
+.flaticon-search-interface-symbol:before {
+    content: map-get($flaticon_mycollection-map, "search-interface-symbol");
+}
+.flaticon-close:before {
+    content: map-get($flaticon_mycollection-map, "close");
 }

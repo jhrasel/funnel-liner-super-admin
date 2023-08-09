@@ -1,3 +1,5 @@
+import CommonCart from "@/Components/Common/CommonCart/CommonCart";
+import { Col, Container, Row } from "react-bootstrap";
 
 
 export default function Home() {
@@ -6,8 +8,49 @@ export default function Home() {
 
     <>
 
-      <h2>Testing</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis tempora in et nemo cum illo laboriosam labore ipsa? Obcaecati!</p>
+      <div className="home__page side__gaps">
+
+        <Container>
+
+          <Row>
+
+            <Col lg={3}>
+              <CommonCart cartIcon='flaticon-people' cartTitle='Active Client' cartCounter='50000' />
+            </Col>
+
+            <Col lg={3}>
+              <CommonCart cartIcon='flaticon-people' cartTitle='Inactive Client' cartCounter='50000' />
+            </Col>
+
+            <Col lg={3}>
+              <CommonCart cartIcon='flaticon-people' cartTitle='Expired Client' cartCounter='50000' />
+            </Col>
+
+            <Col lg={3}>
+              <CommonCart cartIcon='flaticon-people' cartTitle='Active Ticket' cartCounter='50000' />
+            </Col>
+
+            <Col lg={3}>
+              <CommonCart cartIcon='flaticon-people' cartTitle='Active Client' cartCounter='50000' />
+            </Col>
+
+            <Col lg={3}>
+              <CommonCart cartIcon='flaticon-people' cartTitle='Inactive Client' cartCounter='50000' />
+            </Col>
+
+            <Col lg={3}>
+              <CommonCart cartIcon='flaticon-people' cartTitle='Expired Client' cartCounter='50000' />
+            </Col>
+
+            <Col lg={3}>
+              <CommonCart cartIcon='flaticon-people' cartTitle='Active Ticket' cartCounter='50000' />
+            </Col>
+
+          </Row>
+
+        </Container>
+
+      </div>
 
     </>
 

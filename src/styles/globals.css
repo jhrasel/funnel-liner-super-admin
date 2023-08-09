@@ -3,23 +3,173 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background: #F4F5F8;
 }
 
 :root {
-  --main-color: #041E48;
+  --main-color: #A078FF;
+  --bg-color: #834fff;
+  --border-color: #d4c2ff;
+  --header-color: #495057;
+  --text-color: #74788d;
+  --white-color: #fff;
+  --red-color: #FF0000;
 }
 
-.container :where(a, h1, h2, h3, h4, h5, h6, button, ul, li, p) {
+body :where(a, h1, h2, h3, h4, h5, h6, button, ul, li, p) {
   padding: 0;
   margin: 0;
   text-decoration: none;
   border: 0;
   background: none;
   list-style-type: none;
+  word-wrap: break-word;
+}
+
+.container{
+  max-width: calc(100% - 210px);
+  margin-right: 0;
+  padding: 0 30px;
+}
+
+.d_flex{
+  display: flex;
+  align-items: center;
+}
+
+.d_justify{
+  justify-content: space-between;
+}
+
+
+/* Common Css */
+
+body h2 {
+  font-size: 25px;
+  line-height: 35px;
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+body h3 {
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: var(--header-color);
+}
+
+body h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--header-color);
+}
+
+body h5 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--header-color);
+}
+
+body p,
+body label {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+body a,
+body button {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  transition: all linear .3s;
+  color: var(--header-color);
+  display: inline-block;
+}
+
+body i{
+  line-height: 0;
+}
+
+.bg {
+  color: var(--white-color);
+  background: var(--main-color);
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+
+body .bg:hover {
+  background: var(--bg-color);
+}
+
+.box__shadow {
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0.25rem 0.75rem rgba(18, 38, 63, .08);
+  background: var(--white-color);
+}
+
+.side__gaps{
+  margin-top: 110px;
+}
+
+
+/* custom__input */
+
+.custom__input {
+  margin-bottom: 20px;
+}
+
+.custom__input :where(input, textarea, select) {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--text-color);
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  width: 100%;
+}
+
+.custom__input :where(input, textarea, select):focus{
+  outline: 1px solid var(--main-color);
+}
+
+.custom__input :where(input, textarea, select)::placeholder{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.custom__input label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+/* Margin */
+
+.margin__top10{
+  margin-top: 10px;
+}
+
+.margin__top20{
+  margin-top: 20px;
+}
+
+.margin__top30{
+  margin-top: 30px;
+}
+
+/* Width */
+.width__100{
+  width: 100%;
 }

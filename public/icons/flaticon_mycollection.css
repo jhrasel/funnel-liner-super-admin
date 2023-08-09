@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon_mycollection";
-    src: url("./flaticon_mycollection.ttf?e2355009c1f4f56d301791d18b28fc0f") format("truetype"),
-url("./flaticon_mycollection.woff?e2355009c1f4f56d301791d18b28fc0f") format("woff"),
-url("./flaticon_mycollection.woff2?e2355009c1f4f56d301791d18b28fc0f") format("woff2"),
-url("./flaticon_mycollection.eot?e2355009c1f4f56d301791d18b28fc0f#iefix") format("embedded-opentype"),
-url("./flaticon_mycollection.svg?e2355009c1f4f56d301791d18b28fc0f#flaticon_mycollection") format("svg");
+    src: url("./flaticon_mycollection.ttf?5e44885d4dc8e8e60ebb491e51ebc93a") format("truetype"),
+url("./flaticon_mycollection.woff?5e44885d4dc8e8e60ebb491e51ebc93a") format("woff"),
+url("./flaticon_mycollection.woff2?5e44885d4dc8e8e60ebb491e51ebc93a") format("woff2"),
+url("./flaticon_mycollection.eot?5e44885d4dc8e8e60ebb491e51ebc93a#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?5e44885d4dc8e8e60ebb491e51ebc93a#flaticon_mycollection") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -104,4 +104,19 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 .flaticon-team:before {
     content: "\f11d";
+}
+.flaticon-home-1:before {
+    content: "\f11e";
+}
+.flaticon-notification:before {
+    content: "\f11f";
+}
+.flaticon-logout:before {
+    content: "\f120";
+}
+.flaticon-search-interface-symbol:before {
+    content: "\f121";
+}
+.flaticon-close:before {
+    content: "\f122";
 }
